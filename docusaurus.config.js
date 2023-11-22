@@ -36,7 +36,7 @@ const config = {
 
   // MAKR: - Custom 
   url: 'https://bonjin-team.github.io',
-  baseUrl: '/',
+  baseUrl: '/delivery-tracker-page',
   trailingSlash: false,
   projectName: 'delivery-tracker-page',
   organizationName: 'bonjin-team',
