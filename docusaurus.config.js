@@ -111,7 +111,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: '',
+                href: 'https://gigas-blog.tistory.com',
               },
             ],
           },
