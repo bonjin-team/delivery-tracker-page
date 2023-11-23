@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Delivery Tracker',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -36,7 +36,7 @@ const config = {
 
   // MAKR: - Custom 
   url: 'https://bonjin-team.github.io',
-  baseUrl: '/delivery-tracker-page',
+  baseUrl: '/',
   trailingSlash: false,
   projectName: 'delivery-tracker-page',
   organizationName: 'bonjin-team',
@@ -74,9 +74,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Delivery Tracker',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Delivery Tracker Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -88,7 +88,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/bonjin-team',
             label: 'GitHub',
             position: 'right',
           },
@@ -111,15 +111,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: '',
               },
             ],
           },
@@ -131,13 +123,17 @@ const config = {
                 to: '/blog',
               },
               {
+                label: 'Tistory',
+                href: 'https://gigas-blog.tistory.com',
+              },
+              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/bonjin-team',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Delivery Tracker Project, Inc. Built with Bonjin.`,
       },
       prism: {
         theme: prismThemes.github,
